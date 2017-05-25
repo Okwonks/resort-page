@@ -3,3 +3,5 @@
 ##Author's: [Albert](https://github.com/Okwonks) and [Mark](https://github.com/markkariuki)
 
 ##Program Name: This is the Resort page
+
+###Copyright: -------MPFT4 2017 Course-------

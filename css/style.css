@@ -1,9 +1,10 @@
 h1 {
   text-align: center;
-  color: blue;
+  color: white;
+  text-shadow: bold;
 }
 
-h2,h4 {
+h2, h4 {
   text-align: left;
   color: blue;
 }
@@ -11,4 +12,41 @@ h2,h4 {
 p {
   font-family: sans-serif;
   font-style: italic;
+}
+
+img {
+  float: right;
+  width: 500px;
+  height: 300px;
+}
+
+.home {
+  background-image: url("../images/resort-back.jpg");
+}
+
+.main {
+  font-family: sans-serif;
+  font-style: normal;
+  background-color: #ffffcc
+}
+
+.list {
+  font-style: italic;
+  background-color: #ffff99
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+}
+
+.lista {
+  float: left;
+  background-color: #ffff80;
+}
+
+#body {
+  border: 80px solid black;
+  padding: 75px;
 }
