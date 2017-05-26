@@ -3,18 +3,63 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+
   <title>Resort Accommodation</title>
 </head>
 
-<body>
-  <h1>Accomodation at TM Investor Resort</h1>
-  <div class="main">
-    <p>This is our accommodation plan. In vitae odio pretium, vulputate ante ut, dictum felis. Morbi nec porta libero. Donec non ultricies elit, id finibus purus. Mauris tincidunt nibh ut ante viverra ultrices. Nulla sed lobortis orci, eu semper ligula.
-      Mauris placerat commodo augue eget blandit. Mauris nisi lacus, semper non congue at, auctor eu tortor. Nunc a risus consequat, egestas ipsum tincidunt, convallis massa. Suspendisse cursus diam imperdiet sem tincidunt ornare.
-    </p>
-    <div id="body">
-      <img src="images/Accommodation.jpg" alt="accommodation">
+<body class="body home">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">TMResort</a>
+    </div>
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="#">Accommodation</a></li>
+        <li role="presentation"><a href="activities.html">Activities</a></li>
+        <li role="presentation"><a href="arrangements.html">Arrangements</a></li>
+        <li role="presentation"><a href="pictures.html">Pictures</a></li>
+        <li role="presentation"><a href="contact-info.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="containter-main">
+    <div class="page-header">
+      <h1 id="pagehd">TM Investor Resort <small>Accommodation</small></h1>
+    </div>
+    <div class="jumbotron">
+      <p>This is our accommodation plan. In vitae odio pretium, vulputate ante ut, dictum felis. Morbi nec porta libero. Donec non ultricies elit, id finibus purus. Mauris tincidunt nibh ut ante viverra ultrices. Nulla sed lobortis orci, eu semper ligula.
+        Mauris placerat commodo augue eget blandit. Mauris nisi lacus, semper non congue at, auctor eu tortor. Nunc a risus consequat, egestas ipsum tincidunt, convallis massa. Suspendisse cursus diam imperdiet sem tincidunt ornare.
+      </p>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel">
+          <div class="panel-body">
+          <div class="col-md-6">
+            <img src="images/sign.jpg" alt="accommodation" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <img src="images/pool.jpg" alt="accommodation" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <img src="images/images.jpg" alt="accommodation" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <img src="images/download.jpg" alt="accommodation" class="img-responsive">
+          </div>
+        </div>
+              <!-- end of panel-body -->
+      </div>
+      <!-- end of panel -->
+    </div>
+    </div>
+    <!-- end of row -->
+
       <div class="sidebar">
         <p>You are welcome to sign up for an accomodation plan.</p>
         <div class="list">
@@ -27,6 +72,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </body>
 
